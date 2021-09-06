@@ -1,6 +1,6 @@
 {
   "name": "slobs-websocket-js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SLOBS Websocket Javascript API",
   "main": "lib/index.js",
   "scripts": {

@@ -1,8 +1,8 @@
-# slobs-websocket-js
+# **slobs-websocket-js**
 
-Streamlabs OBS websocket controller built on [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js)
+Streamlabs OBS websocket controller built on **[obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js)**
 
-# Installation
+# **Installation**
 
 ```
 # NPM Install
@@ -13,18 +13,18 @@ yarn add slobs-websocket-js
 
 ```
 
-# Usage
+# **Usage**
 
 Untested in browser, currently supported in node.
 
-### Node Import Methods
+### **Node Import Methods**
 
 ```javascript
 // CommonJS
 const SLOBSWebSocket = require("slobs-websocket-js");
 ```
 
-### Connecting
+### **Connecting**
 
 - Address is optional `default: 127.0.0.1`
 - Port is optional `default: 59650`
@@ -43,7 +43,7 @@ slobs.connect({
 });
 ```
 
-### Requests
+### **Requests**
 
 All available requests can be found from checking the slobs-client [documentation](https://stream-labs.github.io/streamlabs-obs-api-docs/docs/index.html)
 
@@ -61,7 +61,7 @@ slobs.send("makeSceneActive", {
 });
 ```
 
-### Events
+### **Events**
 
 When listening for events you currently need to include the service and method seperated by a period
 
@@ -69,7 +69,7 @@ When listening for events you currently need to include the service and method s
 obs.on("Service.Method", (data) => callback(data));
 ```
 
-### Errors
+### **Errors**
 
 WebSocket errors besides the initial socket connection will be thrown as uncaught errors. All other errors can be caught using `.catch()` when sending request and by using the below example to catch any other error.
 
@@ -79,7 +79,7 @@ obs.on("error", (err) => {
 });
 ```
 
-# Example Usage
+# **Example Usage**
 
 ```javascript
 const SLOBSWebSocket = require("slobs-websocket-js");

@@ -10,6 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/anthonygregis/slobs-websocket-js.git"
   },
+  "keywords": [
+    "slobs",
+    "obs",
+    "remote",
+    "control",
+    "websocket",
+    "node",
+    "node.js"
+  ],
   "author": "TheDevTron",
   "license": "ISC",
   "bugs": {

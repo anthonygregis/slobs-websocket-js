@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anthonygregis/slobs-websocket-js/issues"
   },
-  "homepage": "https://github.com/anthonygregis/slobs-websocket-js#readme"
+  "homepage": "https://github.com/anthonygregis/slobs-websocket-js#readme",
+  "dependencies": {
+    "sockjs-client": "^1.5.2"
+  }
 }
